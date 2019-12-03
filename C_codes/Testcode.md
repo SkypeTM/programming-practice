@@ -1,5 +1,4 @@
-## **행맨 예제 p.401**
-```c  
+// **행맨 예제 p.401**
 #include <stdio.h>
 int check(char s[], char a[], char ch);
 int main(void)
@@ -32,4 +31,3 @@ int check(char s[], char a[], char ch)
     if (strcmp(s, a) == 0) return 1;
     else return 0;
 }
-```
